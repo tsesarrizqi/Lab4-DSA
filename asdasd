@@ -1,0 +1,142 @@
+img2_area = fts2[1]
+img2_perimeter = fts2[2]
+img2_radius_mean = fts2[3]
+img2_radius_sd = fts2[4]
+img2_radius_min = fts2[5]
+img2_radius_max = fts2[6]
+img3_area = fts3[1]
+img3_perimeter = fts3[2]
+img3_radius_mean = fts3[3]
+img3_radius_sd = fts3[4]
+img3_radius_min = fts3[5]
+img3_radius_max = fts3[6]
+
+img1_glcm_mean = (minValue(textures1$glcm_mean)+maxValue(textures1$glcm_mean))/2
+img1_glcm_variance = (minValue(textures1$glcm_variance)+maxValue(textures1$glcm_variance))/2
+img1_glcm_homogenity = (minValue(textures1$glcm_homogeneity)+maxValue(textures1$glcm_homogeneity))/2
+img1_glcm_contrast = (minValue(textures1$glcm_contrast)+maxValue(textures1$glcm_contrast))/2
+img1_glcm_dissimilarity = (minValue(textures1$glcm_dissimilarity)+maxValue(textures1$glcm_dissimilarity))/2
+img1_glcm_entropy = (minValue(textures1$glcm_entropy)+maxValue(textures1$glcm_entropy))/2
+img1_glcm_second_moment = (minValue(textures1$glcm_second_moment)+maxValue(textures1$glcm_second_moment))/2
+img1_glcm_correlation = (minValue(textures1$glcm_correlation)+maxValue(textures1$glcm_correlation))/2
+
+img2_glcm_mean = (minValue(textures2$glcm_mean)+maxValue(textures2$glcm_mean))/2
+img2_glcm_variance = (minValue(textures2$glcm_variance)+maxValue(textures2$glcm_variance))/2
+img2_glcm_homogenity = (minValue(textures2$glcm_homogeneity)+maxValue(textures2$glcm_homogeneity))/2
+img2_glcm_contrast = (minValue(textures2$glcm_contrast)+maxValue(textures2$glcm_contrast))/2
+img2_glcm_dissimilarity = (minValue(textures2$glcm_dissimilarity)+maxValue(textures2$glcm_dissimilarity))/2
+img2_glcm_entropy = (minValue(textures2$glcm_entropy)+maxValue(textures2$glcm_entropy))/2
+img2_glcm_second_moment = (minValue(textures2$glcm_second_moment)+maxValue(textures2$glcm_second_moment))/2
+img2_glcm_correlation = (minValue(textures2$glcm_correlation)+maxValue(textures2$glcm_correlation))/2
+
+img3_glcm_mean = (minValue(textures3$glcm_mean)+maxValue(textures3$glcm_mean))/2
+img3_glcm_variance = (minValue(textures3$glcm_variance)+maxValue(textures3$glcm_variance))/2
+img3_glcm_homogenity = (minValue(textures3$glcm_homogeneity)+maxValue(textures3$glcm_homogeneity))/2
+img3_glcm_contrast = (minValue(textures3$glcm_contrast)+maxValue(textures3$glcm_contrast))/2
+img3_glcm_dissimilarity = (minValue(textures3$glcm_dissimilarity)+maxValue(textures3$glcm_dissimilarity))/2
+img3_glcm_entropy = (minValue(textures3$glcm_entropy)+maxValue(textures3$glcm_entropy))/2
+img3_glcm_second_moment = (minValue(textures3$glcm_second_moment)+maxValue(textures3$glcm_second_moment))/2
+img3_glcm_correlation = (minValue(textures3$glcm_correlation)+maxValue(textures3$glcm_correlation))/2
+
+
+
+####################################
+img1_R_mean = mean(channels1$red)
+img1_G_mean = mean(channels1$green)
+img1_B_mean = mean(channels1$blue)
+img2_R_mean = mean(channels2$red)
+img2_G_mean = mean(channels2$green)
+img2_B_mean = mean(channels2$blue)
+img3_R_mean = mean(channels3$red)
+img3_G_mean = mean(channels3$green)
+img3_B_mean = mean(channels3$blue)
+
+img1_H_mean = mean(img1_hsv[1,])
+img1_S_mean = mean(img1_hsv[2,])
+img1_V_mean = mean(img1_hsv[3,])
+img2_H_mean = mean(img2_hsv[1,])
+img2_S_mean = mean(img2_hsv[2,])
+img2_V_mean = mean(img2_hsv[3,])
+img3_H_mean = mean(img3_hsv[1,])
+img3_S_mean = mean(img3_hsv[2,])
+img3_V_mean = mean(img3_hsv[3,])
+
+img1_Y_mean = mean(img1_Y)
+img1_I_mean = mean(img1_I)
+img1_Q_mean = mean(img1_Q)
+img2_Y_mean = mean(img2_Y)
+img2_I_mean = mean(img2_I)
+img2_Q_mean = mean(img2_Q)
+img3_Y_mean = mean(img3_Y)
+img3_I_mean = mean(img3_I)
+img3_Q_mean = mean(img3_Q)
+
+img1_area = fts1[1]
+img1_perimeter = fts1[2]
+img1_radius_mean = fts1[3]
+img1_radius_sd = fts1[4]
+img1_radius_min = fts1[5]
+img1_radius_max = fts1[6]
+img2_area = fts2[1]
+img2_perimeter = fts2[2]
+img2_radius_mean = fts2[3]
+img2_radius_sd = fts2[4]
+img2_radius_min = fts2[5]
+img2_radius_max = fts2[6]
+img3_area = fts3[1]
+img3_perimeter = fts3[2]
+img3_radius_mean = fts3[3]
+img3_radius_sd = fts3[4]
+img3_radius_min = fts3[5]
+img3_radius_max = fts3[6]
+
+img1_glcm_mean = (minValue(textures1$glcm_mean)+maxValue(textures1$glcm_mean))/2
+img1_glcm_variance = (minValue(textures1$glcm_variance)+maxValue(textures1$glcm_variance))/2
+img1_glcm_homogenity = (minValue(textures1$glcm_homogeneity)+maxValue(textures1$glcm_homogeneity))/2
+img1_glcm_contrast = (minValue(textures1$glcm_contrast)+maxValue(textures1$glcm_contrast))/2
+img1_glcm_dissimilarity = (minValue(textures1$glcm_dissimilarity)+maxValue(textures1$glcm_dissimilarity))/2
+img1_glcm_entropy = (minValue(textures1$glcm_entropy)+maxValue(textures1$glcm_entropy))/2
+img1_glcm_second_moment = (minValue(textures1$glcm_second_moment)+maxValue(textures1$glcm_second_moment))/2
+img1_glcm_correlation = (minValue(textures1$glcm_correlation)+maxValue(textures1$glcm_correlation))/2
+
+img2_glcm_mean = (minValue(textures2$glcm_mean)+maxValue(textures2$glcm_mean))/2
+img2_glcm_variance = (minValue(textures2$glcm_variance)+maxValue(textures2$glcm_variance))/2
+img2_glcm_homogenity = (minValue(textures2$glcm_homogeneity)+maxValue(textures2$glcm_homogeneity))/2
+img2_glcm_contrast = (minValue(textures2$glcm_contrast)+maxValue(textures2$glcm_contrast))/2
+img2_glcm_dissimilarity = (minValue(textures2$glcm_dissimilarity)+maxValue(textures2$glcm_dissimilarity))/2
+img2_glcm_entropy = (minValue(textures2$glcm_entropy)+maxValue(textures2$glcm_entropy))/2
+img2_glcm_second_moment = (minValue(textures2$glcm_second_moment)+maxValue(textures2$glcm_second_moment))/2
+img2_glcm_correlation = (minValue(textures2$glcm_correlation)+maxValue(textures2$glcm_correlation))/2
+
+img3_glcm_mean = (minValue(textures3$glcm_mean)+maxValue(textures3$glcm_mean))/2
+img3_glcm_variance = (minValue(textures3$glcm_variance)+maxValue(textures3$glcm_variance))/2
+img3_glcm_homogenity = (minValue(textures3$glcm_homogeneity)+maxValue(textures3$glcm_homogeneity))/2
+img3_glcm_contrast = (minValue(textures3$glcm_contrast)+maxValue(textures3$glcm_contrast))/2
+img3_glcm_dissimilarity = (minValue(textures3$glcm_dissimilarity)+maxValue(textures3$glcm_dissimilarity))/2
+img3_glcm_entropy = (minValue(textures3$glcm_entropy)+maxValue(textures3$glcm_entropy))/2
+img3_glcm_second_moment = (minValue(textures3$glcm_second_moment)+maxValue(textures3$glcm_second_moment))/2
+img3_glcm_correlation = (minValue(textures3$glcm_correlation)+maxValue(textures3$glcm_correlation))/2
+
+R_mean = c(img1_R_mean, img2_R_mean, img3_R_mean)
+G_mean = c(img1_G_mean, img2_G_mean, img3_G_mean)
+B_mean = c(img1_B_mean, img2_B_mean, img3_B_mean)
+H_mean = c(img1_H_mean, img2_H_mean, img3_H_mean)
+S_mean = c(img1_S_mean, img2_S_mean, img3_S_mean)
+V_mean = c(img1_V_mean, img2_V_mean, img3_V_mean)
+Y_mean = c(img1_Y_mean, img2_Y_mean, img3_Y_mean)
+I_mean = c(img1_I_mean, img2_I_mean, img3_I_mean)
+Q_mean = c(img1_Q_mean, img2_Q_mean, img3_Q_mean)
+area = c(img1_area, img2_area, img3_area)
+perimeter = c(img1_perimeter, img2_perimeter, img3_perimeter)
+radius_mean = c(img1_radius_mean, img2_radius_mean, img3_radius_mean)
+radius_sd = c(img1_radius_sd, img2_radius_sd, img3_radius_sd)
+radius_min = c(img1_radius_min, img2_radius_min, img3_radius_min)
+radius_max = c(img1_radius_max, img2_radius_max, img3_radius_max)
+glcm_mean = c(img1_glcm_mean, img2_glcm_mean, img3_glcm_mean)
+glcm_variance = c(img1_glcm_variance, img2_glcm_variance, img3_glcm_variance)
+glcm_homogenity = c(img1_glcm_homogenity, img2_glcm_homogenity, img3_glcm_homogenity)
+glcm_contrast = c(img1_glcm_contrast, img2_glcm_contrast, img3_glcm_contrast)
+glcm_dissimilarity = c(img1_glcm_dissimilarity, img2_glcm_dissimilarity, img3_glcm_dissimilarity)
+glcm_entropy = c(img1_glcm_entropy, img2_glcm_entropy, img3_glcm_entropy)
+glcm_second_moment = c(img1_glcm_second_moment, img2_glcm_second_moment, img3_glcm_second_moment)
+glcm_correlation = c(img1_glcm_correlation, img2_glcm_correlation, img3_glcm_correlation)
